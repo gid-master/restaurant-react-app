@@ -1,0 +1,22 @@
+{
+   "editor.formatOnSave": false,
+   "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+   },
+   "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+   },
+   "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+   "prettier.tslintIntegration": true,
+   "prettier.eslintIntegration": true,
+   "prettier.jsxSingleQuote": false,
+   "prettier.singleQuote": true,
+ }
