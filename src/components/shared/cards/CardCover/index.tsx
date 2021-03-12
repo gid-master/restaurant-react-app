@@ -23,7 +23,7 @@ const CardCover: React.FC<CardCoverProps> = (props: CardCoverProps) => (
       <div className="actions">
         <span className="price">
           { formatCurrency(props.product.price) }
-          <small className="discount" v-if="product.previousPrice > 0">{ formatCurrency(props.product.previousPrice) }</small>
+          {props.product.previousPrice > 0 && <small className="discount">{ formatCurrency(props.product.previousPrice) }</small>}
         </span>
         <button type="button" className="button" onClick={() => props.clicked(props.product.sku)}>
           Order
