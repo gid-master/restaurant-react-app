@@ -4,6 +4,30 @@ The idea behind this project is to cover some of the most important functionalit
 
 ![](doc/demo.gif)
 
+
+## Quick Start
+
+Firstly, clone and install all necessary packages, then start it locally.
+```
+> git clone https://github.com/gid-master/restaurant-react-app.git
+
+> npm install
+
+> npm start
+```
+
+Initially the application will work normally because it's using mock data. However, if you want to connect to a backend API, you need to have the <strong>node.js</strong> project up running.
+
+[NodeJs API Project](https://github.com/gid-master/restaurant-node-api)
+
+Once you have the API running, you just need to change the enrinonment variable called <strong>REACT_APP_BACKEND_TARGET</strong> to be able to listen to the endpoins.
+
+```
+REACT_APP_BACKEND_TARGET=api
+```
+
+That's all, now you can also have the project listening to the backend API.
+
 ## Application Content
 
 * [Devices Suport](#devices-support)
