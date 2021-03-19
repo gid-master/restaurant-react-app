@@ -18,9 +18,9 @@ Firstly, clone and install all necessary packages, then start it locally.
 
 Initially the application will work normally because it's using mock data. However, if you want to connect to a backend API, you need to have the <strong>node.js</strong> project up running.
 
-[NodeJs API Project](https://github.com/gid-master/restaurant-node-api)
+[Grab the NodeJs API Project right here](https://github.com/gid-master/restaurant-node-api)
 
-Once you have the API running, you just need to change the enrinonment variable called <strong>REACT_APP_BACKEND_TARGET</strong> to be able to listen to the endpoins.
+Once you have the API running, you just need to change the environment variable to be able to listen to the endpoins, the variable can be found inside .env file in the root folder.
 
 ```
 REACT_APP_BACKEND_TARGET=api
